@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family:'byekan';
+    src:url('../fonts/lalezar.ttf')
+    format('truetype');
+}
+@font-face{
+    font-family:lalezar;
+    src:url('../fonts/lalezar.ttf')
+    format('truetype'),
+        url('../fonts/lalezar.woff') format('woff');
+}
+body{
+    font-family:byekan;
+    
+}
+.header{
+  height:550px;
+   background-image: url('../images/nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
+    color:#ffff;
+    padding-top:40px;
+    text-align: center;
+  
+}
+.header .nav-list{
+    list-style-type: none;
+    text-align: center;
+    
+    
+}
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding:15px;
+    
+}
+a:hover{
+    color:orange;
+}
+a{
+     text-decoration: none;
+    color:#ffff;
+}
+.header h1{
+    font-size: 60px;
+    font-family:lalezar;
+    margin-top:90px;
+    
+}
+.header h1 span{
+    color:orange;
+}
+.desc{
+    text-align: center;
+    width:450px;
+    margin:auto;
+    height:55px;
+    line-height: 55px;
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 20px;
+    border:2px solid #ffff;
+    margin-top:30px;
+    
+}
+.members{
+    text-align: center;
+    padding: 50px 30px;
+}
+member-list{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.member-pic{
+    width:50%;
+    height
+
+}
+.member-item{
+    display: inline-block;
+    width:350px;
+    margin: 10px;
+    box-shadow: 0 0 15px black;
+}
+.member-bio{
+    padding:20px;
+    text-align: justify;
+    font-family: lalezar;}
+.member-name{
+    font-size:25px;
+    margin-top: 25px;
+}
+.about{
+    background-image: url('../images/nature.jpg');
+    height:700px;
+    padding-top:50px;
+    background-size: cover;
+  
+   
+    
+}
+.circle{
+   width:600px;
+    height:600px;
+    background-color:rgba(255,255,255,0.3);
+    margin:auto;
+    border-radius: 50%;
+    text-align: center;
+    padding:80px 120px;
+    color:#ffff;
+    
+    
+    
+}
+.circle p{
+    margin-top:80px;
+    text-align:justify;
+ 
+}
+.circle h2{
+    font-size: 35px;
+}
+.footer{
+    width: 1255px;
+    height;400px;
+    background-color: lightgray;
+    padding:20px;
+    text-align: center;
+    margin: auto;
+    
+}
+.social img{
+    width: 100px;
+    height:100px;
+    display: inline-block;
+   
+}
+.p1{
+    background-color:gray;
+    border:2px dashed black;
+    font-size: 30px;
+    color:#ffff;
+
+}
